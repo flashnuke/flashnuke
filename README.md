@@ -1,7 +1,6 @@
 ##
 ### Latest projects
 - [SysTamer](https://github.com/flashnuke/SysTamer)
-- [pass-generator](https://github.com/flashnuke/pass-generator)
 - [wifi-deauth](https://github.com/flashnuke/wifi-deauth)
 - [Deadnet](https://github.com/flashnuke/deadnet) </br>
 ##
