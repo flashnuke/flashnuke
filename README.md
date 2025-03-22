@@ -1,6 +1,6 @@
 ##
 ### Latest projects
-- [ssh-door](https://github.com/flashnuke/ssh-door)
+- [mod-rootkit](https://github.com/flashnuke/mod-rootkit)
 - [wifi-deauth](https://github.com/flashnuke/wifi-deauth)
 - [Deadnet](https://github.com/flashnuke/deadnet) </br>
 ##
