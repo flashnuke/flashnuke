@@ -28,7 +28,7 @@ jobs:
             &hide_title=true
             &number_format=long
           path: profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_STATS_TOKEN }}
           
       - name: Generate top languages card
         uses: readme-tools/github-readme-stats-action@v1
