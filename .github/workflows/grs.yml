@@ -27,7 +27,7 @@ jobs:
              "card_width":350,
              "hide_title":true,
              "number_format":"long"}
-          path: profile/stats.svg
+          path: profile/updated_stats.svg
           token: ${{ secrets.GH_STATS_TOKEN }}
           
       - name: Generate top languages card
