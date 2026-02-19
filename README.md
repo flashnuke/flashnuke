@@ -6,7 +6,7 @@
 ##
 </br>
 
-![Stats](./profile/stats.svg)
+![Stats](./profile/updated_stats.svg)
 
 ![Top Langs](./profile/top-langs.svg)
 
