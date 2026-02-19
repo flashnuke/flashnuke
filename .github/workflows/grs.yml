@@ -19,8 +19,7 @@ jobs:
         with:
           card: stats
           options: >
-            username=${{ github.repository_owner }}
-            &show_icons=true
+            username=${{ github.repository_owner }}&show_icons=true
             &hide_rank=true
             &show_icons=true
             &theme=radical
@@ -36,8 +35,7 @@ jobs:
         with:
           card: top-langs
           options: >
-            username=${{ github.repository_owner }}
-            &theme=radical
+            username=${{ github.repository_owner }}&theme=radical
             &layout=compact
             &langs_count=8
             &card_width=350
