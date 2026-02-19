@@ -18,15 +18,15 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          options: >
-            username=${{ github.repository_owner }}&show_icons=true
-            &hide_rank=true
-            &show_icons=true
-            &theme=radical
-            &hide=issues,contribs,prs,commits
-            &card_width=350
-            &hide_title=true
-            &number_format=long
+          options: >-
+            {"username":"${{ github.repository_owner }}",
+             "show_icons":true,
+             "hide_rank":true,
+             "theme":"radical",
+             "hide":"issues,contribs,prs,commits",
+             "card_width":350,
+             "hide_title":true,
+             "number_format":"long"}
           path: profile/stats.svg
           token: ${{ secrets.GH_STATS_TOKEN }}
           
@@ -34,11 +34,12 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          options: >
-            username=${{ github.repository_owner }}&theme=radical
-            &layout=compact
-            &langs_count=8
-            &card_width=350
+          options: >-
+            {"username":"${{ github.repository_owner }}",
+             "theme":"radical",
+             "layout":"compact",
+             "langs_count":8,
+             "card_width":350}
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
