@@ -18,7 +18,10 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&hide_rank=true
+          options: >
+            username=${{ github.repository_owner }}
+            &show_icons=true
+            &hide_rank=true
             &show_icons=true
             &theme=radical
             &hide=issues,contribs,prs,commits
