@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">flashnuke's GitHub Stats, Rank: A-</title>
-        <desc id="descId">Total Stars Earned: 1088</desc>
+        <desc id="descId">Total Stars Earned: 1089</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 65.01335460795201;
+        stroke-dashoffset: 64.06338714326093;
       }
     }
   
@@ -137,7 +137,7 @@
         x="219.01"
         y="12.5"
         data-testid="stars"
-      >1088</text>
+      >1089</text>
     </g>
   </g>
     </svg>
