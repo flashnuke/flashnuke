@@ -8,7 +8,7 @@
         role="img"
         aria-labelledby="descId"
       >
-        <title id="titleId">flashnuke's GitHub Stats, Rank: A</title>
+        <title id="titleId">flashnuke's GitHub Stats, Rank: A-</title>
         <desc id="descId">Total Stars Earned: 1145</desc>
         <style>
           .header {
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 56.62332609262313;
+        stroke-dashoffset: 69.91734299840384;
       }
     }
   
